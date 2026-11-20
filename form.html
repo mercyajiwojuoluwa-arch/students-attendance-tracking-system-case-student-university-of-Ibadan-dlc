@@ -1,0 +1,1 @@
+{% extends 'tracker/base.html' %}{% block content %}<h1>New attendance session</h1><div class="card"><form method="post">{% csrf_token %}{{ form.as_p }}<button>Create session</button></form></div>{% endblock %}
